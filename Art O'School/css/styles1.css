@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "MADE Evolve Sans Evo";
+    src: url('../font/Madeevolvesansevolight.woff') format('woff'),
+         url('../font/Madeevolvesansevolight.woff2') format('woff2'),
+         url('../font/Madeevolvesansevolight.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url('../font/Segoeuiregular.woff') format('woff'),
+         url('../font/Segoeuiregular.eot') format('eot'),
+         url('../font/Segoeuiregular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(img/hjg@2x.png);
+  background-position: 100% 400%;
+  background-repeat: no-repeat;
+  background-color: blue;
+  background-size: 10%;
+}
+
+.prototype {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  font-family: "MADE Evolve Sans", Arial, sans-serif;
+}
+
+.main-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21.9%;
+}
+
+.header-title {
+  position: absolute;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.main-title {
+  position: relative;
+  margin-top: 16.2%;
+  margin-left: 8.2%;
+  font-size: 6.1rem;
+  letter-spacing: 0.9px;
+  word-spacing: -2px;
+}
+
+.course-select-btn {
+  position: relative;
+  margin-top: 0.8%;
+  margin-left: 8.1%;
+  padding-top: 1%;
+  padding-left: 3.6%;
+  padding-bottom: 0.85%;
+  padding-right: 3.6%;
+  font-family: "MADE Evolve Sans Evo", Arial, sans-serif;
+  font-size: 2.5rem;
+  background-color: #FFA4CC;
+  border-radius: 46px 46px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.16);
+}
+
+.main-menu {
+  display: flex;
+}
+
+/*.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7.85%;
+  min-width: 55%;
+  margin-left: 33%;
+  margin-right: 13%;
+  background-color: blue;
+  opacity: 0.3;
+}
+*/
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7.9%;
+  min-width: 55%;
+  margin-left: 33%;
+
+}
+
+.menu-item {
+  font-size: 1.55em;
+  color: #444444; 
+}
+/*
+.menu {
+  display: flex;
+  padding-top: 7.85%;
+  padding-left: 33%;
+  background-color: red;
+  opacity: 0.3;
+}
+
+.menu-item {
+  font-size: 1.55em;
+  padding-right: 8.7%;
+  color: #444444;
+}
+
+.menu-item:last-child {
+  padding-left: 0.1%;
+
+}
+
+.menu-item {
+
+}
+*/
+
+
+.search-and-account {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 7%;
+  min-height: 30.3em;
+
+}
+
+.search-icon {
+  width: 60.5px;
+  margin-top: 108%;
+  margin-bottom: 7.65em;
+}
+
+.account-btn {
+  width: 186.5px;
+  margin-left: 3%;
+  padding-top: 13px;
+  padding-left: 45.5px;
+  padding-bottom: 17px;
+  padding-right: 20px;
+  font-size: 1.35em;
+  letter-spacing: 0.8px;
+  word-spacing: -1.5px;
+  background-color: #FFD965;
+  border-radius: 30px 30px;
+  /* !!! Ãâ€™ ÃÅ¾ÃÂ¢Ãâ€Ãâ€¢Ãâ€ºÃÂ¬ÃÂÃÂ«Ãâ„¢ ÃÂ¤ÃÂÃâ„¢Ãâ€º Ãâ€Ãâ€ºÃÂ¯ ÃÅ¡ÃÂ ÃÅ¾ÃÂ¡ÃÂ¡Ãâ€˜ÃÂ ÃÂÃÂ£Ãâ€”Ãâ€¢ÃÂ ÃÂÃÅ¾ÃÂ¡ÃÂ¢ÃËœ !!! 
+  -moz-transform: rotate(90deg); Ãâ€ÃÂ»Ã‘Â Firefox 
+  -ms-transform: rotate(90deg); Ãâ€ÃÂ»Ã‘Â IE
+  -webkit-transform: rotate(90deg); Ãâ€ÃÂ»Ã‘Â Safari, Chrome, iOS
+  -o-transform: rotate(90deg); Ãâ€ÃÂ»Ã‘Â Opera */
+  transform: rotate(90deg);
+}
+
+
+
+/* section */
+
+
+
+section {
+  position: absolute;
+  width: 100vw;
+  top: 7.85%;
+  opacity: 0.3;
+}
+
+.error-number {
+  position: relative;
+}
+
+.error-title {
+  margin: 0 31.25%;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 26.5rem;
+  letter-spacing: 7px;
+}
+
+.error-deco {
+  position: absolute;
+  top: 25.85%;
+  margin-left: calc(31.25% + (420px / 2));
+  z-index: 1;
+}
+
+.error-message {
+  margin: -1.1% 20% 0 31%;
+  max-width: 70%;
+  font-family: "MADE Evolve Sans Evo", Arial, sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.6px;
+  line-height: 3.18rem;
+}
+
+.error-text {
+  padding-bottom: 2.45rem;
+}
+
+.text-deco {
+  color: #FFD965;
+}
+
+/*
+.page-deco {
+  position: absolute;
+  bottom: -22.4%;
+  right: -7.9%;
+  width: 22.5%;
+}
+
+
+
+
+

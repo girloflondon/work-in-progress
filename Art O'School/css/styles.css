@@ -1,0 +1,337 @@
+@font-face {
+    font-family: "MADE Evolve Sans";
+    src: url('../font/Madeevolvesansbold.otf') format('otf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MADE Evolve Sans Evo";
+    src: url('../font/Madeevolvesansevolight.woff') format('woff'),
+         url('../font/Madeevolvesansevolight.woff2') format('woff2'),
+         url('../font/Madeevolvesansevolight.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url('../font/Segoeuiregular.woff') format('woff'),
+         url('../font/Segoeuiregular.eot') format('eot'),
+         url('../font/Segoeuiregular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.prototype {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+/* header */
+
+header {
+  position: relative;
+  width: 100%;
+  font-family: "MADE Evolve Sans", Arial, sans-serif;
+}
+
+.main-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21.9%;
+}
+
+.header-title {
+  position: absolute;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.main-title {
+  position: relative;
+  margin-top: 16.2%;
+  margin-left: 8.2%;
+  font-size: 6.1rem;
+  letter-spacing: 0.9px;
+  word-spacing: -2px;
+}
+
+.course-select-btn {
+  position: relative;
+  margin-top: 0.8%;
+  margin-left: 8.1%;
+  padding-top: 1%;
+  padding-left: 3.6%;
+  padding-bottom: 0.85%;
+  padding-right: 3.6%;
+  font-family: "MADE Evolve Sans Evo", Arial, sans-serif;
+  font-size: 2.5rem;
+  background-color: #FFA4CC;
+  border-radius: 46px 46px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.16);
+}
+
+.main-menu {
+  display: flex;
+}
+
+/*.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7.85%;
+  min-width: 55%;
+  margin-left: 33%;
+  margin-right: 13%;
+  background-color: blue;
+  opacity: 0.3;
+}
+*/
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7.9%;
+  min-width: 55%;
+  margin-left: 33%;
+
+}
+
+.menu-item {
+  font-size: 1.55em;
+  color: #444444; 
+}
+/*
+.menu {
+  display: flex;
+  padding-top: 7.85%;
+  padding-left: 33%;
+  background-color: red;
+  opacity: 0.3;
+}
+
+.menu-item {
+  font-size: 1.55em;
+  padding-right: 8.7%;
+  color: #444444;
+}
+
+.menu-item:last-child {
+  padding-left: 0.1%;
+
+}
+
+.menu-item {
+
+}
+*/
+
+
+.search-and-account {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 7%;
+  min-height: 30.3em;
+
+}
+
+.search-icon {
+  width: 60.5px;
+  margin-top: 108%;
+  margin-bottom: 7.65em;
+}
+
+.account-btn {
+  width: 11.7em;
+  margin-left: 3%;
+  padding-top: 13px;
+  padding-left: 45.5px;
+  padding-bottom: 17px;
+  padding-right: 20px;
+  font-size: 1.35em;
+  letter-spacing: 0.8px;
+  word-spacing: -1.5px;
+  background-color: #FFD965;
+  border-radius: 30px 30px;
+  /* !!! В ОТДЕЛЬНЫЙ ФАЙЛ ДЛЯ КРОССБРАУЗЕРНОСТИ !!! 
+  -moz-transform: rotate(90deg); Для Firefox 
+  -ms-transform: rotate(90deg); Для IE
+  -webkit-transform: rotate(90deg); Для Safari, Chrome, iOS
+  -o-transform: rotate(90deg); Для Opera */
+  transform: rotate(90deg);
+}
+
+.school-concept {
+  position: absolute;
+  margin-top: 5.45%;
+}
+
+.header-moto {
+  width: 150%;
+  margin-left: -2.5%;
+  font-size: 2060%;
+  letter-spacing: 0.5px;
+  word-spacing: 9px;
+  text-transform: uppercase;
+  color: #DFDDDD;
+  opacity: 0.45;
+}
+
+.concept-wrapper {
+  position: absolute;
+  top: 79.7%;
+  display: flex;
+  justify-content:space-evenly;
+  width: 100%;
+  padding: 2% %;
+  font-family: "MADE Evolve Sans Evo", Arial, sans-serif;
+  font-size: 1.9rem;
+  background-color: #E9E9E9;
+  opacity: 0.3;
+}
+
+.concept {
+  display: flex;
+  max-width: 25%;
+  background-color: red;
+}
+
+.concept-icon {
+  padding-top: 0.4%;
+}
+
+.concept > figcaption {
+  padding-top: 13%;
+}
+
+.courses {
+  position: relative;
+  margin-top: 31%;
+  opacity: 0.3;
+}
+
+.courses > .soc-med {
+  width: 21.2%;
+  padding-top: 1.4%;
+  margin-left: 3.5%;
+}
+
+.courses > .soc-med > .icon {
+  margin-right: 1.6%;
+}
+
+.section-title {
+  position: relative;
+  font-family: "MADE Evolve Sans Evo", Arial, sans-serif;
+  font-size: 3rem;
+  letter-spacing: 1.1px;
+  margin-top: 1.2%;
+  margin-left: 43.17%;
+}
+
+.section-title:before {
+  position: absolute;
+  content: "01"; 
+  font-family: "MADE Evolve Sans", Arial, sans-serif;
+  font-size: 10rem;
+}
+
+.section-text {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: ;
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  display: flex;
+  top: 9196px;
+  width: 100vw;
+  padding: 0 7%;
+  font-family: "MADE Evolve Sans Evo", Arial, sans-serif;
+  font-weight: 300;
+  color: #444444;
+  background-color: rgba(211, 211, 211, 0.55);
+}
+
+footer > div {
+  width: 30%;
+}
+
+.footer-logo {
+  padding-top: 8.3%;
+  padding-left: 2.3%;
+  font-size: 1.85em;
+  letter-spacing: 0.2px;
+}
+
+.icon {
+  width: 15.5%;
+  margin-right: 1.2%;
+  padding-top: 6.3%;
+}
+
+.footer-year {
+  padding-top: 12.9%;
+  padding-bottom: 11%;
+  padding-left: 3%;
+  font-size: 1.85em;
+  letter-spacing: 0.5px;
+}
+
+footer > div:nth-child(2), footer > div:nth-child(3) {
+  padding-top: 1.5%;
+  padding-left: 3.5%;
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+}
+
+footer > div:nth-child(3) {
+  padding-left: 3.65%;
+}
+
+footer > div:last-child {
+  width: 16%;
+  margin-left: 10%;
+}
+
+.payment {
+  display: flex;
+}
+
+.payment > img {
+  justify-content: space-between;
+  width: 30%;
+  height: 12%;
+  margin-left: 1.8%;
+  padding-top: 16%;
+}
+
+footer > div:last-child > p {
+  padding-top: 33%;
+  padding-left: 7.5%;
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+  line-height: 2.1em;
+}
+
+
+
+
+
+
